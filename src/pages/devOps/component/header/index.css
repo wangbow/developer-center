@@ -1,0 +1,25 @@
+.header {
+  position: absolute;
+  top: 68px;
+  right: 0;
+  overflow: hidden;
+  padding: 0 25px;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  margin-right: 15px;
+}
+
+.header__select {
+  float: right;
+  width: 200px;
+}
+
+.detail .ant-input {
+  border-radius: 1000px;
+}
+
+.detail .ant-select-selection {
+  border-radius: 4000px;
+}

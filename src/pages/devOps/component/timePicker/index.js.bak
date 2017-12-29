@@ -1,0 +1,150 @@
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import Button from 'antd/lib/button';
+import classnames from 'classnames'
+
+//variable
+const ButtonGroup = Button.Group;
+
+// static
+import './index.css';
+
+
+// const 
+const STATIC_DATA = ['5分钟', '10分钟', '30分钟', '1小时', '半天'];
+
+export default class TimePicker extends Component {
+  static propTypes = {
+    onChangeTime: PropTypes.func,
+    splitIndex: PropTypes.number,
+    timeData: PropTypes.array,
+  }
+  static defaultProps = {
+    onChangeTime: () => { },
+    splitIndex: 2,
+    timeData: ['5分钟', '10分钟', '30分钟', '1小时', '半天'],//[],
+  }
+
+
+  state = {
+    activeTimeIndex: 4,
+    activeTimeName: '其他时间段',
+    showPanel: false,
+  }
+
+  onShowPanel = () => {
+    this.setState({
+      showPanel: true,
+    })
+  }
+
+  onHidePanel = () => {
+    this.setState({
+      showPanel: false,
+    })
+  }
+
+  handleChangeTime = (e) => {
+    const index = e.target.dataset.index
+      || e.currentTarget.dataset.index;
+    this.setState({
+      activeTimeIndex: index,
+      showPanel: false,
+    });
+
+    const splitIndex = this.props.splitIndex;
+
+    if (index > splitIndex) {
+      this.setState({
+        activeTimeName: this.props.timeData[index]
+      })
+    } else {
+      this.setState({
+        activeTimeName: '其他时间段',
+      })
+    }
+
+    this.props.onChangeTime(index, e);
+  }
+
+  render() {
+    const si = this.props.splitIndex;
+    const timeDataFt = this.props.timeData.slice(0, si + 1);
+    const timeDataEd = this.props.timeData.slice(si + 1);
+
+    return (
+      <div class="b"
+
+      >
+        {
+          timeDataFt.map((item, index) => {
+            const cls = classnames({
+              "b__btn": true,
+              "b__btn--active": this.state.activeTimeIndex == index
+            });
+            return (
+              <Button
+                onClick={this.handleChangeTime}
+                className={cls}
+                key={index}
+                data-index={index}
+              >
+                {item}
+              </Button>
+            )
+          })
+        }
+
+        <div className="b__panel">
+          <ButtonGroup>
+            <Button
+              onClick={this.onShowPanel}
+              className={classnames({
+                "b__btn b__btn--big b__btn--float": true,
+                "b__btn--active": this.state.activeTimeIndex > this.props.splitIndex
+              })}
+            >
+              {this.state.activeTimeName}
+            </Button>
+            <Button
+              onClick={this.onShowPanel}
+              className="b__icon"
+            >
+              <i className="uf uf-triangle-down"> </i>
+            </Button>
+          </ButtonGroup>
+          {
+            this.state.showPanel && (
+              <ul className="b__list">
+                {
+                  timeDataEd.map((item, index) => {
+                    const ind = index + si + 1;
+                    const cls = classnames({
+                      "b__item": true,
+                      "b__item--active": this.state.activeTimeIndex == ind
+                    });
+
+                    return (
+                      <li
+                        className={cls}
+                        key={ind}
+                      >
+                        <div
+                          className="b__data"
+                          data-index={ind}
+                          onClick={this.handleChangeTime}
+                        >
+                          {item}
+                        </div>
+                      </li>
+                    )
+                  })
+                }
+              </ul>
+            )
+          }
+        </div>
+      </div>
+    )
+  }
+}

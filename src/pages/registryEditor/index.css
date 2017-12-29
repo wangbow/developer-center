@@ -1,0 +1,33 @@
+.md-detail{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    padding: 15px;
+    background-color: #0a001f;
+    border: 1px solid #0a001f;
+}
+.md-effect{
+    width: 100%;
+    height: 600px;
+    margin-left: -31px;
+    padding: 15px;
+    border: 1px solid #0a001f;
+    overflow: auto;
+}
+.md-label{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+.md-info{
+    width: 100%;
+}
+.md-info-effect{
+    width: 100%;
+    height: 200px;
+    margin-left: -31px;
+    padding: 15px;
+    border: 1px solid #0a001f;
+    overflow: auto;
+}

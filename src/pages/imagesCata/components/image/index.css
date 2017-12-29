@@ -1,0 +1,66 @@
+.imagecata-image{
+    /*float: left;*/
+    width: auto;
+    height: 226px;
+    padding: 30px;
+    margin: 10px;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.imagecata-image:hover{
+    box-shadow: 0 0 3px rgba(0,0,0,.4);
+}
+
+.imagecata-image .pic{
+    float: left;
+    /*width: 80px;*/
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background: #f8f8f8;
+}
+.imagecata-image h3,h4{
+    margin-top: 1em;
+}
+.imagecata-image .image-title{
+    float: left;
+    /*width: 183px;*/
+    margin-left: 15px;
+    height: 80px;
+    color: #424242;
+}
+.imagecata-image .image-title p{
+    color: #858585;
+}
+.imagecata-image .image-title span{
+    display: inline-block;
+}
+.imagecata-image .image-title span:last-child{
+    margin-left: 20px;
+}
+.imagecata-image .image-title .cl{
+    margin-right: 5px;
+}
+.imagecata-image .image-title span, .imagecata-image .image-title .cl{
+    color: #ccc;
+}
+
+.imagecata-image .image-description{
+    position: relative;
+    top: 28px;
+    clear: both;
+    line-height: 1.4em;
+    height: 4.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #434a54;
+}
+
+.imagecata-image .image-description::after{
+    /*content: "...";*/
+    /*font-weight: bold;*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 2px;*/
+    /*background-color: #fff;*/
+    /*padding-right: 2px;*/
+}

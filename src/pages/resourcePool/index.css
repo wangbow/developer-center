@@ -1,0 +1,72 @@
+.rp .create-key-modal{
+  padding-left: 10px;
+}
+.rp .key-table-operate{
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.rp .key-table-warning{
+  margin-bottom: 5px;
+  margin-right: 0;
+}
+.rp .key-table-list {
+  margin-right: 0;
+}
+.rp .key-table-list .show-modal-button {
+  color:blue;
+  cursor: pointer;
+}
+.rp .key-table-list .forbid-modal-button {
+  color:blue;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.rp .key-table-list .reuse-modal-button {
+  color:rgb(129,199,132);
+  cursor: pointer;
+}
+.rp .key-table-list .delete-modal-button {
+  color:red;
+  cursor: pointer;
+}
+.rp .u-table th:last-child, .u-table td:last-child {
+  text-align: right;
+}
+.rp .key-table-warning .close span{
+  display: none;
+}
+.u-form-group{
+  text-align: center;
+}
+.u-form-group .u-label{
+  min-width: 100px;
+  display: inline-block;
+}
+.u-form-group .u-form-control{
+  width: 50%!important;
+}
+.rp .operate-button{
+  cursor: pointer;
+  color: rgb(30,136,229);
+}
+.rp .operate-button.delete{
+  margin-left: 8px;
+}
+.rp .create-pool,.create-pool:hover{
+  text-align: center;
+  box-shadow: none!important;
+  background: none!important;
+}
+.rp .create-pool .u-button-info{
+  border-color: #E53834;
+  background: #E53834;
+  border-radius: 0;
+}
+.go-apply{
+  cursor: pointer;
+  color: #0CA4EA;
+}
+table thead th,table tbody td{
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+.step {
+  position: relative;
+  margin-bottom: 20px;
+  &:not(:last-child):before {
+    content: " ";
+    height: calc(~"100% - 40px");
+    border-left: 3px dashed #ccc;
+    width: 1px;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+  }
+  &--icon {
+    position: absolute;
+    border-radius: 1000px;
+    border: 3px solid #ccc;
+    width: 60px;
+    height: 60px;
+  }
+  &--icon-font {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #d81e06;
+    font-size: 40px;
+  }
+  &--line {
+    border-top: 3px solid #ccc;
+    width: 30px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+  }
+  &--title{
+    color: #dd3730;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  &--body {
+    margin-left: 90px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    min-height: 80px;
+  }
+}

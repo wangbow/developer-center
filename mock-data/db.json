@@ -1,0 +1,193 @@
+{
+  "posts": 
+  {
+  "success": "true",
+  "detail_msg": {
+    "data": {
+      "columns": [
+        {
+          "id": "1",
+          "targetColumn": "test",
+          "sourceColumn": "test",
+          "indexColumn": "test",
+          "indexSegmentType": "ngram",
+          "deltaIdentifier": "true",
+          "deletionFlag": "true",
+          "foreignTableJion": "test",
+          "providerId": "test",
+          "addTime": "2017-08-08 16:00:44.0",
+          "tableName": "test",
+          "dbName": "test",
+
+        }
+      ],
+      "mark":"true",
+      "filterCondition": "test",
+      "isSync": "test",
+      "crontab": "test"
+    }
+  }
+},
+  "uploadList": {
+    "success": "true",
+    "detail_msg": {
+      "data": {
+        "columns": [
+          {
+            "key1": "id",
+            "key2": "int"
+          },
+          {
+            "key1": "db_id",
+            "key2": "varchar"
+          },
+          {
+            "key1": "db_name",
+            "key2": "varchar"
+          },
+          {
+            "key1": "tb_name",
+            "key2": "int"
+          },
+          {
+            "key1": "db_username",
+            "key2": "int"
+          },
+          {
+            "key1": "db_password",
+            "key2": "int"
+          },
+          {
+            "key1": "filter_condition",
+            "key2": "int"
+          },
+          {
+            "key1": "is_sync",
+            "key2": "int"
+          },
+          {
+            "key1": "user_id",
+            "key2": "int"
+          },
+          {
+            "key1": "provider_id",
+            "key2": "int"
+          },
+          {
+            "key1": "add_time",
+            "key2": "int"
+          },
+          {
+            "key1": "db_type",
+            "key2": "int"
+          },
+          {
+            "key1": "db_url",
+            "key2": "int"
+          },
+          {
+            "key1": "db_driver_class",
+            "key2": "int"
+          }
+        ]
+      }
+    }
+  },
+  "status": {
+    "success": "true",
+    "detail_msg": {
+      "data": {
+        "columns": [
+          {
+            "key1": "id",
+            "key2": "int",
+            "type": 0
+          },
+          {
+            "key1": "db_id",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "db_name",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "tb_name",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "db_username",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "db_password",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "filter_condition",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "is_sync",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "user_id",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "provider_id",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "add_time",
+            "key2": "datetime",
+            "type": 3
+          },
+          {
+            "key1": "db_type",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "db_url",
+            "key2": "varchar",
+            "type": 1
+          },
+          {
+            "key1": "db_driver_class",
+            "key2": "varchar",
+            "type": 1
+          }
+        ]
+      }
+    }
+  },
+  "peizhitime": {
+      "success": "true",
+      "detail_msg": {
+        "data": {
+          "tables": [
+            "db_single_mapping",
+            "db_source",
+            "hdata_xml",
+            "mapping_relations",
+            "pub_tenant_user",
+            "pub_tenant_user_permission",
+            "pub_tenant_user_relation",
+            "search_task_info",
+            "user_details"
+          ]
+        }
+      }
+  }
+}

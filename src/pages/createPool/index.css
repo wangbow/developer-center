@@ -1,0 +1,123 @@
+.create-pool p{
+    margin: 0;
+    padding: 0;
+}
+.create-pool,.create-pool:hover{
+    text-align: center;
+    box-shadow: none!important;
+    background: none!important;
+}
+.create-pool button,.create-pool .apply-invite{
+    display: block;
+}
+.create-pool .u-button-info{
+    border-color: #E53834;
+    background: #E53834;
+    display: inline-block;
+    min-width: 170px;
+    margin-top: 55px;
+}
+.create-pool .u-button-info:hover{
+    background: #C40B15;
+    border-color: #C40B15;
+}
+.create-pool .u-label{
+    display: block;
+}
+
+.create-pool .apply-invite a{
+    cursor: pointer;
+    color: #0CA4EA;
+}
+.create-pool .u-form-group{
+    width: 500px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.create-pool .u-form-group .u-label{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.create-pool .u-form-group .u-form-control{
+    height: 38px;
+}
+.create-pool .apply-invite{
+    width: 500px;
+    display: inline-block;
+    text-align: right;
+    font-size: 12px;
+}
+.create-pool .tile-img img,.invite-success .tile-img img{
+    margin:30px;
+}
+.create-pool .error{
+    margin: 0;
+}
+.invite-success,.invite-error,.pool-error{
+     text-align: center;
+ }
+.invite-success .left,.invite-success .right,.pool-error .left,.pool-error .right,.invite-error .left,.invite-error .right{
+    display: inline-block;
+}
+.invite-success .right,.pool-error .right,.invite-error .right{
+    text-align: left;
+    vertical-align: middle;
+    color: #434343;
+    margin-left: 50px;
+}
+.invite-success .right h3,.pool-error .right h3,.invite-error .right h3{
+    font-weight: normal;
+}
+.invite-success .right h6,.invite-error .right h6,.pool-error .right h6{
+    font-weight: normal;
+    color: #a0a0a0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.invite-success .right h6 .second{
+    font-weight: bolder;
+    color: #F44336;
+}
+.invite-error .u-button{
+    margin-top: 80px;
+    background: #00bc9b;
+    color: #fff;
+    min-width: 170px;
+}
+.invite-error .left{
+    vertical-align: top;
+}
+.invite-error .right h3{
+    margin-top: 50px;
+    font-size: 16px;
+}
+.pool-error .u-button{
+    margin-top: 80px;
+    background: #00bc9b;
+    color: #fff;
+    min-width: 170px;
+}
+.pool-error .left{
+    vertical-align: top;
+}
+.pool-error .right h3{
+    margin-top: 50px;
+}
+.create-pool .u-tile,.u-tile:hover{
+    text-align: center;
+    box-shadow: none!important;
+    background: none!important;
+}
+/*垂直居中*/
+#content{
+    height: 100%;
+}
+.pool-error,.invite-success,.invite-error{
+    height: 250px;
+    position: relative;
+    top: 50%;
+    margin-top: -125px;
+}

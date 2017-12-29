@@ -1,0 +1,80 @@
+
+.menuTree-list .u-panel-body{
+        padding: 15px;
+    }
+.menuTree-list .u-menu{
+       border-radius: 0;
+       box-shadow: none;
+       border: none;
+       border-top: 1px solid #d9d9d9;
+   }
+.menuTree-list .u-menu-vertical, .u-menu-inline{
+       padding: 0;
+   }
+.info-list .ipass-list {
+     margin-top: 10px;
+
+ }
+.info-list .ipass-list .label{
+    display: inline-block;
+    width: 55px;
+    text-align: right;
+    color: #9a9a9a;
+}
+.info-list .ipass-list .value{
+    display: inline-block;
+    min-width: 60px;
+    text-align: left;
+    margin-left: 10px;
+}
+ .edit-form .u-form-control{
+     width: auto;
+ }
+ .edit-form .count{
+     left: 26px;
+ }
+  .edit-form .count input{
+      width: 50px;
+  }
+  .edit-form .u-label{
+      line-height: 30px;
+  }
+
+.menu-control .u-menu-item-selected{
+    background: rgb(187,222,251);
+    border-right: 2px solid #108ee9;
+    transform: translateZ(0);
+    color: #108ee9;
+}
+.menu-control .submenu-selected .u-menu-submenu-title{
+    background: rgb(187,222,251);
+    border-right: 2px solid #108ee9;
+    transform: translateZ(0);
+    color: #108ee9;
+}
+
+.icon-list li{
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+.icon-list li .uf, .icon-list li .cl{
+    font-size: 20px;
+}
+.color-list li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.choice-icon {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.choice-icon .u-tabs{
+    max-width: 100%;
+    background-color: #fff;
+}

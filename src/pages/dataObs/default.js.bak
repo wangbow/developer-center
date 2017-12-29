@@ -1,0 +1,92 @@
+import { PureComponent } from 'react';
+import PropTypes from 'prop-types';
+import { Table } from 'tinper-bee';
+import ReactEcharts from 'echarts-for-react';
+import macarons from './macarons'
+import ChartBlock from './component/chartBlock';
+
+import parser from './default/parser';
+import requestParam from './default/request';
+
+export default class Default extends PureComponent {
+  static propTypes = {
+    timeId: PropTypes.string,
+    appId: PropTypes.string,
+  }
+
+  static defaultProps = {
+    timeId: '',
+    appId: ''
+  }
+
+
+  state = {
+
+  }
+
+  requestParam = requestParam(this.props);
+
+  componentDidMount() {
+    this.getGraphData(this.props)
+  }
+
+  componentWillReceiveProps(nextprops) {
+    this.getGraphData(nextprops)
+  }
+
+  getGraphData = ({ appId, timeId }) => {
+    if (!appId || !timeId) {
+      return;
+    }
+    let ret = [];
+    ret = Object.keys(this.requestParam).map(key => {
+      return axios.post(
+        '/ycm-yyy/web/v1/graphquery/query',
+        splitParam(this.requestParam[key])
+      ).then(data => parser({ appId }, data))
+    })
+  }
+
+  render() {
+    return (
+      <div className="graph-area">
+        <div className="graph-half">
+          <ChartBlock
+            className="graph-blk"
+          >
+          </ChartBlock>
+          <ChartBlock
+            className="graph-blk"
+          >
+          </ChartBlock>
+        </div>
+        <div className="graph-half">
+          <ChartBlock
+            className="graph-blk-big"
+          >
+            <ReactEcharts
+              className="graph-area-canvas"
+              theme={"macarons"}
+              option={{}}
+            >
+            </ReactEcharts>
+          </ChartBlock>
+        </div>
+        <div style={{ clear: 'both' }}>
+          <ChartBlock
+            className="graph-third"
+          >
+          </ChartBlock>
+          <ChartBlock
+            className="graph-third"
+          >
+          </ChartBlock>
+          <ChartBlock
+            className="graph-third"
+          >
+          </ChartBlock>
+        </div>
+      </div >
+    )
+  }
+}

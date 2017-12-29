@@ -1,0 +1,20 @@
+.panel-h {
+  padding: 0 15px 15px;
+  background-color: white;
+}
+
+.panel-h:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.panel-h__app {
+  float: left;
+  width: 250px;
+  margin-right: 15px;
+}
+
+.panel-h__picker {
+  float: left;
+}

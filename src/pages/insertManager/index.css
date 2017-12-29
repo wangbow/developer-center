@@ -1,0 +1,147 @@
+.insert-manager{
+  margin: 0;
+}
+.insert-manager .create-key-modal{
+  padding-left: 10px;
+}
+.insert-manager .key-table-operate{
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 0;
+  margin-top:10px;
+  width: 100%;
+}
+.insert-manager .key-table-warning{
+  margin-bottom: 5px;
+  margin-right: 0;
+  margin-top:10px;
+}
+.insert-manager .key-table-list {
+  margin-right: 0;
+}
+.insert-manager .key-table-list .show-modal-button {
+  color:blue;
+  cursor: pointer;
+}
+.insert-manager .key-table-list .forbid-modal-button {
+  color:blue;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.insert-manager .key-table-list .reuse-modal-button {
+  color:rgb(129,199,132);
+  cursor: pointer;
+}
+.insert-manager .key-table-list .uf-del,.insert-manager .key-table-list .uf-pencil {
+  color:#1e88e5;
+  cursor: pointer;
+}
+.insert-manager .u-table th:last-child, .u-table td:last-child {
+  text-align: right;
+}
+.insert-manager .key-table-warning .close span{
+  display: none;
+}
+.insert-manager .key-table-head{
+  height: 30px;
+  line-height: 30px;
+  font-size: 17px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.insert-manager .child .u-input-group{
+  width: 50%;
+  max-width: 600px;
+  min-width: 400px;
+}
+.insert-manager .child.border{
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
+}
+.insert-manager .error{
+  height: 30px;
+  line-height: 30px;
+}
+.privite-domain .u-checkbox-label{
+  min-width: 100px;
+}
+.insert-manager .key-table-operate .u-button,.insert-manager .create-key-modal .u-button{
+  border-radius: 0;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 0;
+  margin-right: 15px;
+}
+.insert-manager .key-table-list .u-table-content .u-table-thead tr th,.insert-manager .key-table-list .u-table-content .u-table-tbody tr td{
+  font-size: 11px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+}
+.insert-manager .table-title{
+  height: 44px;
+  line-height: 44px;
+  font-size: 13px;
+  text-align: center;
+  color: #4a4a4a;
+  padding: 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+.insert-manager .u-pagination{
+  margin: 10px 0 0 0;
+}
+.insert-manager .search{
+  float: right;
+  width: 30%;
+  min-width: 200px;
+}
+.insert-manager .search .u-form-control{
+  border-right: 0;
+  border-radius: 0;
+  font-size: 12px;
+}
+.insert-manager .search .u-input-group-addon{
+  background: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.insert-manager .search .u-form-control:focus ~ .u-input-group-addon{
+  border-color: #1E88E5;
+  outline: 0;
+}
+.insert-manager-bind .mast{
+  margin-right: 5px;
+  color: red;
+  margin-left: 5px;
+}
+.insert-manager-bind  .u-input-group-addon{
+  background: none;
+}
+.insert-manager-bind .u-form-control[type='number']::-webkit-inner-spin-button{
+  -webkit-appearance:textfield;
+  -moz-appearance:textfield;
+  appearance: textfield;
+}
+.insert-manager-bind .verify .u-input-group{
+  display: table!important;
+  width: 100%;
+}
+.insert-manager-bind .verify .u-input-group.simple .u-input-group-btn{
+  right: -5px;
+  display: none;
+}
+
+.insert-manager-bind .u-modal-footer{
+  text-align: center;
+}
+
+.insert-manager-bind .u-modal-footer button{
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 0;
+}
+.insert-manager-bind .u-modal-footer button.u-button-primary{
+  background-color: #1e88e5;
+  border: 1px solid #1e88e5;
+}

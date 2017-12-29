@@ -1,0 +1,9 @@
+.search {
+  float: left;
+}
+
+.search__input {
+  display: inline-block;
+  width: 200px;
+  margin-right: 25px;
+}

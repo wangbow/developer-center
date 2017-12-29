@@ -1,0 +1,79 @@
+.health-check{
+  .title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .check-step{
+    margin: 2% 5%;
+    .u-steps-title{
+      font-weight: bolder;
+    }
+    .u-steps .u-steps-item.u-steps-status-finish .u-steps-head-inner{
+      border-color: #4cae4f;
+      background-color: #fff;
+    }
+
+    .u-steps .u-steps-item.u-steps-status-finish .u-steps-head-inner>.u-steps-icon{
+      color: green;
+    }
+
+    .u-steps .u-steps-item.u-steps-status-finish .u-steps-title{
+      color:#4cae4f
+    }
+    .u-steps .u-steps-item.u-steps-status-finish .u-steps-tail>i:after{
+      background: #4cae4f;
+    }
+    .u-steps .u-steps-item.u-steps-status-error .u-steps-tail>i{
+      background-color: #f44336;
+    }
+    .steps-content{
+      margin-top: 5%;
+      margin-right: 17%;
+      .check-item{
+          margin-bottom: 3%;
+        .restore-button{
+          float: right;
+          color: #0084fe;
+          cursor: pointer;
+        }
+        span{
+          font-weight: 400;
+        }
+          .cl {
+            float: right;
+            margin-right: 10px;
+          }
+          .green-tip {
+            color: #4cae4f;
+            margin-right: 6%;
+          }
+          .red-tip {
+            color: #f54236;
+          }
+        }
+      .error-desc{
+        margin-bottom: 3%;
+        color: #f54236;
+        height: 19px;
+        margin-left: 1.4%;
+        font-size: 12px;
+      }
+    }
+  }
+  .modal-footer{
+    text-align: center;
+    margin-bottom: 30px;
+    .cancle-button{
+
+    }
+    .quick-restore{
+
+    }
+    .clear-logs{
+      margin: 0 20px;
+    }
+  }
+
+
+}

@@ -1,0 +1,28 @@
+.u-form-group textarea {
+	width: 40%;
+    border-radius: 3px;
+    border: 1px solid #cecbcb;
+}
+.footer-pagination {
+	float: right;
+    margin-top: 10px;
+}
+.data-source-manage .u-form-group {
+	display: flex;
+    align-items: flex-end;
+}
+.data-source-manage .u-form-group button {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.text-eclipse{
+	width: 130px;
+    line-height: 25px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+.u-table {
+	overflow: auto;
+}

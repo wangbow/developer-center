@@ -1,0 +1,277 @@
+@m-ring-two-w: 161px;
+
+@top-node-margin-l: 230px;
+.node-content {
+  // padding-top: 30px;
+   margin-top: 20px;
+  .monitor-starter {
+    width: 229px;
+    height: 229px;
+    text-align: center;
+    line-height: 229px;
+    border: 1px solid #007689;
+    border-radius: 100%;
+    float: left;
+    // position: absolute;
+    // display: inline-block;
+
+    .monitor-ring {
+      display: inline-block;
+      width: 205px;
+      height: 205px;
+      margin-top: 12px;
+
+      line-height: 205px;
+      background: url("../../../../assets/img/monitor/start-02.png")no-repeat;
+      background-size: cover;
+      border-radius: 100%;
+    }
+
+    .monitor-ring-two {
+      display: inline-block;
+      width: @m-ring-two-w;
+      height: @m-ring-two-w;
+      margin-top: 22px;
+      line-height: @m-ring-two-w;
+      background: url("../../../../assets/img/monitor/start-01.png")no-repeat;
+      background-size: cover;
+      border-radius: 100%;
+    }
+
+    .ring-one {
+      display: inline-block;
+      width: 165px;
+      height: 165px;
+      margin-top: 5px;
+      line-height: 165px;
+      border: 1px solid #007689;
+      border-radius: 100%;
+    }
+
+    .ring-two {
+      // display: inline-block;
+      width: 160px;
+      height: 160px;
+      margin-top: 1px;
+      margin-left: 1px;
+      line-height: 160px;
+      border: 1px solid #007689;
+      border-radius: 100%;
+    }
+
+    .yyc-icon {
+      // display: inline-block;
+      // width: 70px;
+      // height: 70px;
+      // background: url("../../../../assets/img/monitor/developer-icon.png")no-repeat;
+      display: block;
+    width: 45px;
+    margin-left: 49px;
+    margin-top: 10px;
+    }
+  
+    .develop-text {
+      // display: inline-block;
+      // width: 143px;
+      // height: 47px;
+      // background: url("../../../../assets/img/monitor/develop-text.png")no-repeat;
+      display: block;
+      /* margin-top: 5px; */
+      margin-left: 10px;
+      width: 130px;
+    }
+
+    .develop-url {
+      display: block;
+      height: 17px;
+      line-height: 17px;
+      border-top: 1px solid #00F0FF;
+      font-size: 12px;
+      color: #00F0FF;
+    }
+
+    .yyc-text {
+      display: inline-block;
+      width: 71px;
+      height: 39px;
+      background: url("../../../../assets/img/monitor/yonyoucloud-icon.png")no-repeat;
+    }
+
+    .yycloud-icon {
+      display: block;
+      margin-left: 35px;
+    }
+
+  }
+  .top-node {
+    position: relative;
+    margin-left: @top-node-margin-l;
+    overflow: hidden;
+    // bottom: 0px;
+    // z-index: 1;
+    .node-content {
+      width: 1120px;
+    }
+  }
+
+  .top-part1 {
+    margin-left: 465px;
+    &::after, &:before {
+      clear: both;
+    }
+    .line {
+      margin-left: 105px;
+    }
+
+  }
+
+  .top-part2 {
+    clear: left;
+    position: relative;
+    .broken-1 {
+      position: absolute;
+      right:172px;
+      top: 70px;
+      z-index: 100;
+    }
+  }
+
+  .clear-left {
+    clear: left;
+  }
+
+  .margin-left-ce {
+    margin-left: 18%;
+  }
+
+  .margin-left-45 {
+    margin-left: 45%;
+  }
+  .top-part3 {
+    clear:left;
+     margin-top: 120px;
+    .top-part3-1 {
+      padding: 15px;
+      background: #040B32;
+      border: 1px solid #006681;
+      border-radius: 20px;
+      float: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position:relative;
+      .oblique-1 {
+        position: absolute;
+        right: -40px;
+        top: 45px;
+      }
+      .oblique-2 {
+        position: absolute;
+            right: -40px;
+       bottom: 65px;
+      }
+      .broken-1 {
+        position: absolute;
+        left: 83px;
+        bottom: -253px;
+      }
+    }
+    .top-part3-2,.top-part3-3,.top-part3-4,.top-part3-5 {
+      float: left;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .top-part3-2 {
+      margin-top:30px;
+      margin-left:30px;
+      position: relative;
+      .direct-1 {
+        position: absolute;
+        right: -45px;
+      }
+      .oblique-1 {
+        position: absolute;
+         right: -40px;
+       bottom: 65px;
+      }
+    }
+    .top-part3-3 {
+      margin-left: 35px;
+       position: relative;
+      .direct-1  {
+          position: absolute;
+          right: -29px;
+          top: 90px;
+
+        }
+      .first {
+        background: #040B32;
+        border: 1px solid #006681;
+        border-radius: 20px;
+        padding: 15px 35px;
+        .title {
+          font-size: 16px;
+          color: #FFFFFF;
+        }
+        .node {
+          float: none;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .top-part3-4 {
+        margin-top: 65px;
+        margin-left: 23px;
+        position: relative;
+        .direct-1  {
+          position: absolute;
+          right: -40px;
+          top: 26px;
+        }
+        .direct-2 {
+         position: absolute;
+        right: -40px;
+        bottom: 125px;
+      }
+      .broken-1 {
+        position: absolute;
+        right: -46px;
+        top: -40px;
+      }
+      
+      .broken-2 {
+        position: absolute;
+        right: -46px;
+        top: 166px;
+      }
+      .broken-3 {
+        position: absolute;
+        right: -46px;
+        bottom: 36px;
+      }
+    }
+
+    .top-part3-5 {
+      margin-left: 30px;
+      .node {
+        float: none;
+        margin-bottom: 5px;
+      }
+      .direct-1 {
+        position: absolute;
+          right: -40px;
+      }
+
+      .top-part3-5-2 {
+        margin-top: 48px;
+        margin-left: 10px;
+      }
+    }
+
+
+  }
+
+}

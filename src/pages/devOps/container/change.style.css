@@ -1,0 +1,24 @@
+.change {}
+
+.change__header {
+  margin: 10px 15px;
+}
+
+.change__name {
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  width: 100px;
+}
+
+.change__table {
+  padding: 15px;
+}
+
+.change__title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 10px;
+}

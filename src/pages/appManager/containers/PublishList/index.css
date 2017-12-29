@@ -1,0 +1,15 @@
+.u-button-border.u-button-primary.tab-btn {
+    color: #000;
+    border-color: transparent;
+}
+
+.u-button-border.u-button-primary.tab-btn:hover {
+    color: #0084ff;
+    background: #fff;
+}
+
+.u-button-border.u-button-primary.tab-btn.active, .u-button-border.u-button-primary.tab-btn:active {
+    color: #fff;
+    background-color: #0084ff;
+    border: 1px solid #0084ff;
+}

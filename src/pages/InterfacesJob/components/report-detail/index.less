@@ -1,0 +1,36 @@
+.test-job-list {
+  margin: 0 -15px;
+
+  .control-bar{
+    padding: 15px 40px;
+    .control-button{
+      margin-left: 20px;
+      border: 1px solid #BEBEBE;
+      background:#fff;
+      color: #008BFA;
+    }
+  }
+
+  .report-detail-list{
+    padding: 0 40px;
+
+    .font-style{
+      width: 80px;
+      overflow: hidden;/*内容超出后隐藏*/
+      text-overflow: ellipsis;/* 超出内容显示为省略号*/
+      white-space: nowrap;
+    }
+  }
+
+  .u-tooltip.fade.in {
+    opacity: 1;
+  }
+  .u-tooltip.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+  }
+  .tooltip-font-style{
+    word-break:break-all
+  }
+}

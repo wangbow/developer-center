@@ -1,0 +1,89 @@
+<script src="//design.yonyoucloud.com/static/yonyouyun/es6-promise.auto.min.js">
+
+</script>
+
+<script src="//design.yonyoucloud.com/static/yonyouyun/lib-cloud.min.js"></script>
+<script>
+    (function (a, c) {
+        var f = "/portal/home/index";
+        var e = function () {
+            var b = a.cookie.match(/u_logints=\d*/g);
+            try {
+                if (b.length != 1 || b[0].length != 23) {
+                    c.parent.location.href = f;
+                }
+            } catch (err) { /*a.location.href = f;*/ }
+        };
+        c.onpageshow = e; e();
+    })(document, window)
+    if (typeof axios != "undefined") {
+        axios.interceptors.request.use(function (config) {
+            //在发送请求之前做某事
+            //config.headers = {'X-Requested-With': 'XMLHttpRequest',"Content-Type": 'application/json'};
+            config.headers['X-Requested-With'] = 'XMLHttpRequest';
+            if (config.method.toLocaleLowerCase() == 'get') {
+                if (config.url.indexOf('?') > -1) {
+                    config.url = config.url + '&_t=' + new Date().getTime()
+                } else {
+                    config.url = config.url + '?_t=' + new Date().getTime()
+                }
+            }
+
+            return config;
+
+        }, function (error) {
+            //请求错误时做些事
+            return Promise.reject(error);
+        });
+
+        // 添加响应拦截器
+        axios.interceptors.response.use(function (response) {
+            // 对响应数据做点什么
+            return response;
+        }, function (error) {
+            // 对响应错误做点什么
+
+            if (error.response) {
+                if (error.response.status == '306') {
+                    try {
+                        window.parent.location.href = '/portal/sso/login.jsp';
+                    }
+                    catch (err) {
+                        window.location.href = '/portal/sso/login.jsp';
+                    }
+
+                }
+            }
+
+
+            return Promise.reject(error);
+        });
+    }
+
+</script>
+
+
+<script src="//design.yonyoucloud.com/static/yonyouyun/ReactRouter.min.js"></script>
+<script
+    src="<%= htmlWebpackPlugin.options.realPath %>?tag=<%= htmlWebpackPlugin.files.chunks[htmlWebpackPlugin.options.key].hash%>"
+    charset="utf-8"
+></script>
+
+<script type="text/javascript" src="https://developer.yonyoucloud.com/iuap-insight.min.js"></script>
+
+<script>
+
+  function getCookie(name) {
+    var arr = document.cookie.match(new RegExp("(^| )" + name + "=([^;]*)(;|$)"));
+    if (arr != null) {
+      return arr[2];
+    }
+    return '';
+  }
+
+  uis.start({
+    trackerUrl: 'https://collect.yonyoucloud.com/iuapInsight/collect',
+    userId: getCookie('userName'),
+    siteId:'f3qw01jx',
+  });
+</script>

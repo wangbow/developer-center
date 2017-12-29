@@ -1,0 +1,29 @@
+.page-header {
+  position: relative;
+  width: 100%;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  box-shadow: #d3d3d3 0 2px 3px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.page-header__ret {
+  position: absolute;
+  width: 20%;
+  line-height: 46px;
+  left: 0px;
+  text-align: left;
+  padding-left: 15px;
+  z-index: 100;
+  font-size: 14px;
+  color: #008bfa;
+  cursor: pointer;
+}
+
+.page-header__oper {
+  position: absolute;
+  top: 0;
+  right: 70px;
+}

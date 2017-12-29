@@ -1,0 +1,39 @@
+.apply,.apply:hover{
+    text-align: center;
+    box-shadow: none!important;
+    background: none!important;
+}
+.apply .u-button-info{
+    border-color: #E53834;
+    background: #E53834;
+    min-width: 170px;
+    margin-top: 30px;
+}
+.apply .u-button-info:hover{
+    background: #C40B15;
+    border-color: #C40B15;
+}
+.apply h6{
+    font-weight: normal;
+    margin: 0 0 30px 0;
+    font-size: 16px;
+}
+.apply .title{
+    color: #666666;
+    margin-top: 0;
+}
+.apply .apply-ing,.apply-warn{
+    display: inline-block;
+    width: 360px;
+}
+.apply .detail{
+    text-align: left;
+    line-height: 20px;
+    padding-left: 60px;
+}
+.apply .detail li{
+    margin-top: 10px;
+}
+.apply .tile-img img{
+    margin: 30px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="//design.yonyoucloud.com/static/react/tinper-bee.css" rel="stylesheet" media="screen">
+  <link href="./index.css" rel="stylesheet" media="screen">
+</head>
+<body>
+  <div id="content"></div>
+
+  {%=o.htmlWebpackPlugin.files.chunks['access/index'].js[chunk]%}
+  <script src="//design.yonyoucloud.com/static/react/react.js"></script>
+  <script src="//design.yonyoucloud.com/static/react/react-dom.js"></script>
+  <script src="//design.yonyoucloud.com/static/react/tinper-bee.min.js"></script>
+  <script src="//design.yonyoucloud.com/static/react/ReactRouter.min.js"></script>
+  <script src="//design.yonyoucloud.com/static/react/axios.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    init(document.getElementById("content"));
+  </script>
+ </body>
+</html>

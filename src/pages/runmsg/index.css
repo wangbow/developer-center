@@ -1,0 +1,82 @@
+.msg-row .u-row {
+    margin-top: 15px;
+}
+
+.msg-row .msg-tile {
+
+    padding: 0;
+    background: #ffffff;
+}
+
+.msg-row .msg-num-blue {
+    color: #1080B7;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.msg-row .msg-num-red {
+    color: #FB4E27;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.msg-row .msg-num-green {
+    color: #1ABB9B;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.msg-row .msg-col {
+    margin-left: 20px;
+    padding-right: 0;
+    padding-bottom: 15px;
+}
+
+.msg-tile .msg-data {
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-right: 1px solid #ddd;
+    padding: 0;
+}
+
+.msg-tile .msg-data h3 {
+    margin-top: 30px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.msg-tile .tile-icon {
+    color: white;
+    font-size: 80px;
+}
+
+.msg-tile .msg-appId {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.msg-tile .msg-back {
+    background-position: -30% 35%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+.msg-appId h3 {
+
+    font-size: 14px;
+}
+
+.msg-row .no-data {
+    text-align: center;
+
+}
+
+.msg-row .no-data .no-data-png {
+    margin-top: 150px;
+    height: 160px;
+    width: 160px;
+}

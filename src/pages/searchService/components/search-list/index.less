@@ -1,0 +1,141 @@
+.search-list-wraper{
+    
+     & .hearder{
+         padding-left: 1rem;
+         margin-bottom: 4rem;
+         & .title{
+          margin-top: 3rem;
+          font-size: 16px;
+          margin-right: 2rem;
+         }
+ 
+         & .search-wraper{
+             margin-top: 3rem;
+             width: 70%;
+             & .input-wraper{
+                 width: 60%;
+                 & .input-search{
+                     border-radius: 15px;
+                     position: relative;
+                     z-index: 0;
+                 }           
+ 
+             }
+ 
+             & .border-close-wraper{
+                 position: absolute;
+                 top: 2px;
+                 bottom: 0;
+                 z-index: 2;
+                 right: 50px !important;
+             }
+             & .curpoint{
+                 cursor: pointer;
+             }
+ 
+             & .u-input-group.simple .u-input-group-btn {
+                 position: absolute;
+                 top: 5px;
+                 bottom: 0;
+                 z-index: 2;
+                 right: 20px;
+             }
+                 
+         }
+     }
+     
+     & .tuijian{
+         width: 70%;
+         padding-bottom: 5px;
+         margin-top: 3rem;
+         border-bottom: 1px solid #ccc;
+         margin-left: 2rem;
+         & .tujian-content-border{
+                 border-left: 5px solid #D7342F;
+                 margin-top: 2px;
+                 height: 20px;
+         } 
+     }
+     & .info{
+         padding: 10px 0;
+         & .title{
+            border-bottom: 2px solid #F3F3F3; 
+             padding-bottom: 10px;
+             & .serviceName{
+                 cursor: pointer;
+                 color: #294092;
+                 display: block;
+                 & .inner-color{
+                      color: red;
+                 }
+                 & .hover-span{
+                     display: inline-block;
+                     max-width:80%;
+                     white-space: nowrap;
+                     overflow: hidden;
+                     text-overflow: ellipsis;
+                     word-break: break-all;
+                 }
+                
+             }
+               & .serviceName:hover{
+               
+             }
+         }
+         & .public{
+             border: 1px solid #ccc;
+             border-radius: 15px;
+             width: 4rem;
+             display: inline-block;
+             text-align: center;
+             background: #9278FF;
+             color: #fff;
+             font-size: 12px;
+             height: 20px;
+             line-height: 17px;
+         }
+         & .font-style{
+             font-size: 16px;
+         }
+         & .private{
+             border: 1px solid #ccc;
+             border-radius: 15px;
+             width: 4rem;
+             display: inline-block;
+             text-align: center;
+             background: #008BFA;
+             color: #fff;
+             font-size: 12px;
+             height: 20px;
+             line-height: 17px;
+         }
+         & .provider {
+             color: #DBDBDB
+         }
+         & .info-detail{
+             word-break: break-word;
+             width: 100%;
+             margin-top: 1rem;
+             text-indent: 1rem;
+             margin-bottom: 1rem;
+         }
+         
+     }
+     
+     &  .pagination-wrap{
+         width: 50%;
+         margin: 0 auto;
+         margin-bottom: 30px;
+     }
+ }
+ .u-tooltip.fade {
+     opacity: 0;
+     -webkit-transition: opacity 0.15s linear;
+     -o-transition: opacity 0.15s linear;
+     transition: opacity 0.15s linear;
+ }
+   
+ .u-tooltip.fade.in {
+     opacity: 1;
+ }
+ 

@@ -1,0 +1,152 @@
+.public-list{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f4f4f4;
+}
+.public-content{
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    max-width: 1230px;
+    margin-bottom: 35px;
+}
+
+.public-list .list-nav{
+    float: left;
+    width: 300px;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 25px;
+    min-height: 470px;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+}
+.public-list .list-nav .offical {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #858585;
+}
+.public-list .count span{
+    display: inline-block;
+}
+.public-list .count span:last-child{
+    margin-left: 20px;
+}
+.public-list .count .cl{
+    margin-right: 8px;
+}
+.public-list .count span, .public-list .count .cl{
+    color: #ccc;
+}
+.public-list .list-nav .img{
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-color: #f8f8f8;
+}
+.public-list .list-nav .image-name{
+    padding: 5px;
+    margin-top: 1em;
+}
+.publiclist-button{
+    width: 100px;
+    margin-top: 20px;
+}
+.publiclist-info{
+    margin-top: 50px;
+    font-size: 12px;
+    color: #434A54;
+}
+.publiclist-content .rc-tabs-tab-active, .rc-tabs-tab-active:hover, rc-tabs-tab{
+    color: #0084ff;
+}
+.publiclist-content .rc-tabs-ink-bar{
+    background-color: #0084ff;
+}
+.publiclist-info li{
+    margin: 8px;
+}
+.publiclist-info .info{
+    display: inline-block;
+    margin-left: 5px;
+}
+.publiclist-description{
+    text-align: left;
+}
+.publiclist-content{
+    max-width: 900px;
+    margin-top: 40px;
+    margin-left: 320px;
+    background-color: #fff;
+    padding: 40px 50px;
+    min-height: 800px;
+    box-shadow: 0 0 3px rgba(0,0,0,.2);
+
+}
+.publiclist-content .tab-title{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+.publiclist-content .tab-title i{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.publiclist-content .docker-path{
+    position: relative;
+    /*height: 50px; */
+    line-height: 50px;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    padding-left: 30px;
+   /* 
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden; */
+}
+.publiclist-content .docker-path .text-break{
+    display: inline-block;
+    width: 90%;
+}
+.publiclist-content h1,.publiclist-content h2,.publiclist-content h3{
+    margin-top: 50px;
+
+}
+.operation{
+    color: #aaa;
+    cursor: pointer;
+}
+.operation:hover{
+    color: #1787fb;
+}
+
+
+.versionlist-img img{
+   height: 120px;
+}
+
+.publiclist-content blockquote {
+    display: block;
+    margin: 0;
+    border-left: 3px solid #0084ff;
+    padding-left: 40px;
+}
+.publiclist-content pre{
+    padding: 5px;
+    background-color: #f5f5f5;
+    overflow: auto;
+}
+.publiclist-content ul, .publiclist-content li{
+    list-style-type: disc;
+    list-style-position: outside;
+
+}
+.publiclist-content code{
+    background-color: #f5f5f5;
+}
+.publiclist-content .docker-path .u-clipboard{
+    position: absolute;
+    right: 20px;
+    color: #0084ff;
+}

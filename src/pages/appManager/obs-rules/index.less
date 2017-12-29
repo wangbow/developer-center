@@ -1,0 +1,105 @@
+.box {
+  position: relative;
+  width: 14rem;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #CCC;
+  padding-left: 5px;
+  padding-right: 25px;
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  .loading {
+    display: inline;
+    position: absolute;
+    right: 5px;
+    top: -1px;
+    -webkit-animation: loading 2s infinite;
+    animation: loading 2s infinite;
+  }
+  .iconClass {
+    display: none;
+  }
+  &:hover {
+    cursor: pointer;
+    .iconClass {
+      display: inline;
+      position: absolute;
+      right: 5px;
+      top: -1px;
+    }
+  }
+}
+
+@-webkit-keyframes loading {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes loading {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.opt-list {
+  border: 1px solid #CCC;
+  &>li {
+    cursor: pointer;
+    padding: 5px;
+  }
+  &>li:nth-of-type(odd) {
+    background: #f5f5f5;
+  }
+  &-active {
+    color: white;
+    background-color: #108ee9 !important;
+  }
+}
+
+.list-c {
+  position: relative;
+  .iconClass {
+    position: absolute;
+    top: 10px;
+  }
+}
+
+.box-pop {}
+
+
+/* list */
+
+.editor {
+  text-align: center;
+  &-large {
+    width: 60rem;
+  }
+}
+
+// rule-list 
+.rule-list {
+  &-header {}
+  &-name {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+  }
+}
+
+// remove popconfirm style 
+.u-popconfirm,
+.u-popover {
+  max-width: 1000px;
+}

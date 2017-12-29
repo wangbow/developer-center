@@ -1,0 +1,114 @@
+.u-pagination-warp{
+  width: 100%;
+  position: relative;
+}
+.u-select-dropdown {
+    z-index: 3000;
+}
+.md-tas{ 
+  padding: 30px 50px 20px 40px;
+}
+.md-tas .tableBtn{
+  min-width: 0px;
+  border: none;
+  padding: 0px 5px;
+  background-color: transparent;
+  color: rgb(153, 153, 153);
+}
+.md-tas .rc-tabs-top{
+  overflow-y: hidden;
+  border-bottom: none;
+}
+.md-tas .list{
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+.u-pagination-warp .u-pagination{
+  max-width: 450px;
+  margin-top: 8px;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.md-search{
+  margin-top: 60px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+}
+
+.md-search .search-group{
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.md-search .search-group:after{
+  content: " ";
+  clear: both;
+  display: block;
+}
+.md-search .search-group label{
+  width: 30%;
+  float: left;
+  text-align: right;
+  padding-right: 8px;
+}
+.md-search .search-group input, .md-search .search-group .u-select{
+  width: 70%;
+  float: left;
+}
+
+.md-search .search-button{
+  display: inline-block;
+  margin-left: 60px;
+}
+.md-search .search-button button{
+  width: 86px;
+  height: 32px;
+  line-height: 1.47143;
+  font-size: 14px;
+  border-radius: 0px;
+}
+.Running, .Checking, .Unkown, .Deploying  {
+  color: white;
+  display: inline;
+  padding: 4px 6px;
+  borderRadius: 4px;
+}
+.Running {
+  background: #4caf50;
+},
+.Checking {
+  background: #fe7323;
+}
+.Unkown{
+  background: #ff8a80;
+}
+.Deploying{
+  background: #29b6f6;
+}
+.dueDate{
+  margin-bottom: 30px;
+}
+.dueDate label{
+  width: 20%;
+}
+.dueDate input{
+  width: 30%;
+}
+@media screen  and (min-width: 930px) and (max-width: 1180px){
+  .md-search .search-group{
+    width: 25%;
+  }
+}
+@media screen and (max-width: 930px){
+  .md-search .search-group{
+    width: 30%;
+    margin-bottom: 8px;
+  }
+  .md-search .search-button{
+    margin-left: 0px;
+  }
+}

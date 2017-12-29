@@ -1,0 +1,186 @@
+.upgrade-model{
+
+}
+.upgrade{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.upgrade .u-col-md-10,.upgrade .u-col-sm-10{
+  margin-left: -20px;
+}
+.upgrade-model .u-modal-header{
+  padding-bottom: 3px;
+  margin-top: 10px;
+  padding-left: 45px;
+  font-size: 14px;
+  color: #333333;
+  font-weight: 100;
+}
+.upgrade-model .u-modal-header h4{
+  font-weight: 100;
+}
+.upgrade-model .u-modal-body{
+  padding-top: 0;
+}
+.upgrade .clearfix:after{
+  content: " ";
+}
+#vcmdcopy{
+  width: 0px;
+  height: 0px;
+  color: transparent;
+}
+.upgrade .cdm-copy{
+  margin-top: 10px;
+  position: relative;
+  padding-right: 35px;
+}
+.upgrade .cdm-copy input{
+  padding-right:40px;
+}
+.upgrade .cdm-copy span{
+  position: absolute;
+  right: 40px;
+  top: 5px;
+  color: #008BFA;
+}
+.upgrade .cur-version{
+  color: #F57323;
+  font-weight: 600;
+}
+.upgrade .u-radio-group{
+  width: 100%;
+  margin-top: -8px;
+}
+.upgrade .label-text{
+  font-size: 14px;
+}
+.upgrade label, .upgrade input{
+  font-size: 12px;
+}
+.upgrade .u-radio{
+  display: block;
+  height: 36px;
+  padding-top: 8px;
+  padding-left: 8px;
+  border: 1px solid #fff;
+}
+.upgrade .u-radio-label{
+  left: 93%;
+  width: 100%;
+  top:3px;
+}
+.upgrade .is-checked .u-radio-label:after{
+      top: -13px !important;
+}
+.upgrade-model .u-radio-text{
+  position: absolute;
+  left: -93%;
+  top: -18px;
+  font-size: 12px;
+}
+.upgrade-model .u-radio-text .tag-name{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 80px;
+  vertical-align: text-bottom;
+}
+.upgrade-model .u-radio-text .tag-version{
+  display: inline-block;
+  margin-left: 40px;
+  vertical-align: text-bottom;
+}
+.upgrade .is-checked .u-radio-text{
+  color: #008BFA;
+}
+.upgrade .u-radio:hover{
+  background: #F0FAFF;
+  border: 1px solid #96D2FF;
+  border-radius: 3px;
+}
+.upgrade .is-checked{
+  background: #F0FAFF;
+  border: 1px solid #96D2FF;
+  border-radius: 3px;
+}
+.upgrade .upgrade-first-test{
+  color: rgb(0, 139, 250);
+  margin-bottom: 18px;
+  margin-top: 5px;
+}
+.upgrade .upgrade-second-test{
+  margin: 8px 0 9px 0;
+  font-size: 12px;
+  color: #4A4A4A;
+}
+.upgrade .upload{
+  height: 32px;
+  width: 120px;
+  border-radius: 0;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+.upgrade .file-preview{
+  background: #FAFAFA;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  width: 100%;
+  height: 80px;
+  font-size: 12px;
+  color: #BEBEBE;
+}
+.file-detail p{
+  font-size: 12px;
+  color: #008BFA;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+.file-detail div{
+  font-size: 12px;
+  color: #4A4A4A;
+}
+.file-right{
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.file-right div{
+  text-align: right;
+  margin-top: 5px;
+}
+.file-right div i{
+  color: #8CC220;
+  font-size: 30px;
+  margin-right: 8px;
+  margin-top: 3px
+}
+.file-right p {
+  color: #8CC220;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 12px;
+}
+.button{
+  width: 86px;
+  height: 32px;
+  line-height: 1.47143;
+  font-size: 14px;
+  margin-right: 21px;
+}
+.upgrade-model .modal-footer{
+  text-align: center !important;
+  margin-top: -10px;
+  margin-bottom: 34px;
+}
+.upgrade .history{
+  margin-top: 23px;
+}
+.upgrade .more{
+  font-size: 12px;
+  color: #008BFA;
+  margin-top: 8px;
+  margin-left: 8px;
+  display: inline-block;
+}

@@ -1,0 +1,71 @@
+.header-margin{
+    margin:0 -15px;
+}
+.search-list-wraper{
+   & .font-style{
+       width: 80px;
+       overflow: hidden;/*内容超出后隐藏*/
+       text-overflow: ellipsis;/* 超出内容显示为省略号*/
+       white-space: nowrap;
+   } 
+   & .search-list{
+        & .hear-wraper{
+            margin: 2rem auto;
+            & .hearder{
+                & .title{
+                    width: 30%;
+                    text-align: right;
+                    line-height: 1.6;
+                    font-size: 16px;
+                }
+            
+                & .search-wraper{
+                    padding-left: 2%;
+                    width: 60%;
+                    & .input-wraper{
+                        width: 100%;
+                        & .input-search{
+                            border-radius: 15px;
+                            position: relative;
+                            z-index: 0;
+                        }           
+                    }
+
+                    & .border-close-wraper{
+                        position: absolute;
+                        top: 2px;
+                        bottom: 0;
+                        z-index: 2;
+                    }
+                    & .curpoint{
+                        cursor: pointer;
+                    }
+
+                    & .u-input-group.simple .u-input-group-btn {
+                        position: absolute;
+                        top: 5px;
+                        bottom: 0;
+                        z-index: 2;
+                        right: 20px;
+                    }
+                        
+                }
+            }
+        }
+
+        & .pagination-wrap{
+            width: 50%;
+            margin:20px auto;
+        }
+    }
+   
+}
+.u-tooltip.fade.in {
+    opacity: 1;
+}
+.u-tooltip.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+

@@ -1,0 +1,67 @@
+.creation {}
+
+.creation__body {
+  padding: 30px 25px;
+}
+
+.creation__field {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.creation__label {
+  width: 100px;
+  display: inline-block;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.creation__input {
+  width: 600px;
+  height: 28px;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+
+.creation__input:focus,
+.creation__finput:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.creation__finput {
+  height: 200px;
+  width: 600px;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  vertical-align: middle;
+}
+
+.creation__sinput {
+  width: 600px;
+}
+
+.creation__btn {
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  padding: 0px;
+  text-align: center;
+  border-radius: 0px;
+  color: white;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.creation__btn--ok {
+  background-color: #dd3730 !important;
+}
+
+.creation__btn--cancel {
+  color: black;
+}

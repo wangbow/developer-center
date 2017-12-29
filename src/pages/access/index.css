@@ -1,0 +1,188 @@
+#content .create-key-modal{
+  padding-left: 10px;
+}
+#content .key-table-operate{
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+#content .key-table-warning{
+  margin-bottom: 5px;
+  margin-right: 0;
+}
+#content .key-table-list {
+  margin-right: 0;
+}
+#content .key-table-list .show-modal-button {
+  color:blue;
+  cursor: pointer;
+}
+#content .key-table-list .forbid-modal-button {
+  color:blue;
+  cursor: pointer;
+  padding-right: 10px;
+}
+#content .key-table-list .reuse-modal-button {
+  color:rgb(129,199,132);
+  cursor: pointer;
+}
+#content .key-table-list .delete-modal-button {
+  color:red;
+  cursor: pointer;
+}
+#content .u-table th:last-child, .u-table td:last-child {
+  text-align: right;
+}
+#content .key-table-warning .close span{
+  display: none;
+}
+#content .key-table-operate button:first-child{
+  margin-right: 15px;
+}
+
+.validate-modal-body .u-form-group{
+  display: block;
+  text-align: center;
+}
+.validate-modal-body .u-form-group .u-label{
+  line-height: 30px;
+  width: 60%;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: block;
+  min-width: 200px;
+}
+.validate-modal-body .u-form-group .u-form-control{
+  width: 60%;
+  min-width: 350px;
+}
+.validate-message{
+  color:red;
+  height: 25px;
+  display: inline-block;
+}
+.operate-button{
+  cursor: pointer;
+  color: rgb(30,136,229);
+}
+.access-status{
+  color: #fff;
+  padding: 3px;
+  border-radius: 4px;
+}
+.access-status.ban{
+   background: #f44336;
+}
+.access-status.success{
+  background: #4caf50;
+}
+.operate-button.delete{
+  margin-left: 8px;
+}
+.table-title{
+  height: 44px;
+  line-height: 44px;
+  font-size: 13px;
+  text-align: center;
+  color: #4a4a4a;
+  padding: 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+.key-table-operate button{
+    border-radius: 0;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    padding: 0;
+  }
+.key-table-list .u-table-content .u-table-thead tr th,.key-table-list .u-table-content .u-table-tbody tr td{
+  font-size: 11px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+}
+
+@media (max-width: 1024px){
+  .key-table-list .u-table-content .u-table-thead tr th,.key-table-list .u-table-content .u-table-tbody tr td{
+    font-size: 11px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+  }
+}
+.key-table-operate{
+  text-align: left;
+  margin-right: 0;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.search{
+  float: right;
+  width: 30%;
+  min-width: 200px;
+}
+.search .u-form-control{
+  border-right: 0;
+  border-radius: 0;
+}
+.search .u-input-group-addon{
+  background: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.search .u-form-control:focus ~ .u-input-group-addon{
+  border-color: #1E88E5;
+  outline: 0;
+}
+.cl-delete,.cl-find{
+  cursor: pointer;
+}
+.validate-modal-body .u-form-group .u-form-control.vd{
+  width: 40%;
+}
+.validate-modal-body .u-form-group .vd-img{
+  width: 20%;
+  height: 30px;
+  min-width: 100px;
+}
+.validate-modal-body .phone-valitest{
+  padding-left: 5px;
+    line-height: 30px;
+    color: #ff4700;
+}
+.getPhoneCode{
+  width: 180px;
+  height: 36px;
+  border-radius: 3px;
+}
+.setBtnDefault{
+  background: #FFFFFF;
+   color: #008BFA;
+  border: 1px solid #008BFA;
+}
+.updateBtnDefault{
+  background: #E6E6E6;
+   color: #858585;
+  border: 1px solid #E6E6E6;
+}
+.phoneBtn:hover,.phoneBtn:active{
+  background: #008BFA !important;
+  border: 1px solid #008BFA !important;
+  color:#fff !important;
+}
+
+.showDesc{
+  margin-left:115px;
+  text-align: left;
+}
+
+.descrip{
+  max-width: 200px;
+  word-wrap: break-word;
+}

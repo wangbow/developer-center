@@ -1,0 +1,53 @@
+.data-source-manage {
+    padding-bottom: 40px;
+}
+.source-content{
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.source-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.add-source-manage .u-form-group .u-label {
+    min-width: 85px;
+    display: inline-block;
+}
+.source-header  .u-input-group {
+    width: 30%;
+}
+.add-source-manage .u-form-group .u-form-control {
+}
+.add-source-manage {
+	display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-pagination {
+    float: right;
+    margin-top: 10px;
+}
+.u-input-group-addon {
+    cursor: pointer;
+}
+.footer-button {
+    display: flex;
+}
+.footer-button button{
+    margin-right: 5px;
+}
+.hover-detail {
+    cursor: pointer;
+}
+.hover-detail:hover {
+    text-decoration: underline;
+}
+.test-input {
+    visibility: hidden;
+}
+.marginLeft10{
+    margin-left: 10px;
+}

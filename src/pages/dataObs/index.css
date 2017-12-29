@@ -1,0 +1,171 @@
+.u-container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+.graph-area {
+  overflow: hidden;
+}
+
+.graph-area--grp {
+  overflow: hidden;
+}
+
+.graph-area--blk {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  height: 394px;
+  position: relative;
+}
+
+.graph-area--blk .u-pagination {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.graph-half {
+  width: 50%;
+  float: left;
+}
+
+.graph-third {
+  width: 33.33%;
+  float: left;
+  height: 340px;
+  padding: 10px;
+}
+
+.graph-blk {
+  padding: 10px;
+  height: 340px;
+}
+
+.graph-blk-big {
+  padding: 10px;
+  height: 680px;
+}
+
+.graph-area--title {
+  text-align: center;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .graph-area--blk {
+    width: 100%;
+  }
+  .graph-half {
+    width: 100%;
+  }
+  .graph-third {
+    width: 100%;
+  }
+}
+
+.graph-area-canvas {
+  height: 272px !important;
+}
+
+
+/* 用户行为页面 */
+
+.u-table td,
+.u-table th {
+  padding: 3px 8px;
+}
+
+
+/* main page */
+
+.main-page--body {
+  padding: 10px 20px;
+}
+
+
+/* 切换按钮 */
+
+.switches {
+  padding: 20px 0 0 20px;
+  text-align: left;
+}
+
+.switch-btn {
+  width: 150px;
+  color: #000;
+  border-color: transparent;
+  border-radius: 0;
+  margin: 0 15px;
+  background-color: white;
+}
+.switches .u-button:hover{
+  background: white;
+  color: #008bff;
+}
+
+.switch-btn__active {
+  color: white !important;
+  background-color: #0084ff !important;
+}
+
+.loading {
+  display: inline-block;
+  -webkit-animation: loading 2s infinite;
+  animation: loading 2s infinite;
+}
+
+@-webkit-keyframes loading {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes loading {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}
+
+
+/*应用选择*/
+
+.panel-h__app .u-select {
+  width: 200px;
+  vertical-align: middle;
+}
+
+.panel-h__app .u-button.u-button-squared.u-button-border {
+  display: inline-block;
+  height: 28px;
+  margin-left: -1px;
+  line-height: 28px;
+  min-width: 30px;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.panel-h__app .u-select-selection.u-select-selection--single,
+.panel-h__app .u-select-selection.u-select-selection--single:active,
+.panel-h__app .u-select-selection.u-select-selection--single:focus {
+  border-radius: 0;
+  background: #0084ff;
+  color: #fff;
+  border-color: #d9d9d9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.panel-h__app .u-select-arrow {
+  display: none;
+}

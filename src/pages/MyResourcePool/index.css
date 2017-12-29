@@ -1,0 +1,121 @@
+
+
+.my-r-p .key-table-warning{
+  margin-bottom: 5px;
+  margin-right: 0;
+}
+.my-r-p .key-table-list {
+  margin-right: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.my-r-p .key-table-list .show-modal-button {
+  color:blue;
+  cursor: pointer;
+}
+.my-r-p .key-table-list .forbid-modal-button {
+  color:blue;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.my-r-p .key-table-list .reuse-modal-button {
+  color:rgb(129,199,132);
+  cursor: pointer;
+}
+.my-r-p .key-table-list .delete-modal-button {
+  color:red;
+  cursor: pointer;
+}
+
+.my-r-p .key-table-warning .close span{
+  display: none;
+}
+.my-r-p  .u-form-group{
+  text-align: center;
+}
+.my-r-p .u-form-group .u-label{
+  min-width: 100px;
+  display: inline-block;
+}
+.my-r-p .u-form-group .u-form-control{
+  width: 50%!important;
+}
+.my-r-p .operate-button{
+  cursor: pointer;
+  color: rgb(30,136,229);
+}
+.my-r-p .operate-button.delete{
+  margin-left: 8px;
+}
+.my-r-p .create-pool,.create-pool:hover{
+  text-align: center;
+  box-shadow: none!important;
+  background: none!important;
+}
+.my-r-p .create-pool .u-button-info{
+  border-color: #E53834;
+  background: #E53834;
+  border-radius: 0;
+}
+.my-r-p .go-apply{
+  cursor: pointer;
+  color: #0CA4EA;
+}
+.my-r-p .table-title{
+  height: 44px;
+  line-height: 44px;
+  font-size: 13px;
+  text-align: center;
+  color: #4a4a4a;
+  padding: 0;
+  border-bottom: 1px solid #EEEEEE;
+}
+.my-r-p .create-key-modal{
+  margin-right: 15px;
+}
+.my-r-p .create-key-modal button,#refresh,.key-table-operate button{
+  border-radius: 0;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  padding: 0;
+  margin-right: 15px;
+}
+.my-r-p .key-table-list .u-table-content .u-table-thead tr th,.my-r-p  .key-table-list .u-table-content .u-table-tbody tr td{
+  font-size: 11px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 20px;
+  text-align: left;
+}
+.my-r-p .key-table-operate{
+  text-align: left;
+  margin-right: 0;
+  height: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.my-r-p .search{
+  float: right;
+  width: 30%;
+  min-width: 200px;
+}
+.my-r-p .search .u-form-control{
+  border-right: 0;
+  border-radius: 0;
+  font-size: 12px;
+}
+.my-r-p .search .u-input-group-addon{
+  background: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+.my-r-p .search .u-form-control:focus ~ .u-input-group-addon{
+  border-color: #1E88E5;
+  outline: 0;
+}

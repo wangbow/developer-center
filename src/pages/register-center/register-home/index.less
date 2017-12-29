@@ -1,0 +1,32 @@
+.btnStyle{
+    min-width: 0px;
+    border: none;
+    padding: 0px 5px;
+    background-color: transparent;
+    color: rgb(153, 153, 153);
+}
+.infoList{
+    background-color: #EBF7F0;
+    padding: 15px;
+    & .paramList {
+        & li:not(:last-child){
+            border-right: none;
+        }
+        & li{
+            display: inline-block;
+            width:300px;
+            border:1px solid #ccc;
+            text-align: center;
+            border-right: 1px solid #ccc;
+            & div:not(:first-child){
+                border-top:1px solid #ccc;
+            }
+        }
+    }
+    & .tag{
+            color:#A5B759;
+            margin-right: 10px;
+    }
+    
+
+}
